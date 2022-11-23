@@ -1,0 +1,14 @@
+package ex1_7;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Main throws IOException{
+	public static void main(String[] args) {
+		
+	
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	Double height = Double.parseDouble(br.readLine()); 
+	
+	}
+}

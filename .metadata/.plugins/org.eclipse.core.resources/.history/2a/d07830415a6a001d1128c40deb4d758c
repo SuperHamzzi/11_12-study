@@ -1,0 +1,19 @@
+package ex1_4;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.printf("1~12 사이의 정수 입력:");
+		int n = sc.nextInt();
+		switch(n) {
+		
+		case 1&2&3 : System.out.println(n+"월은 봄입니다.");
+		
+		}
+		
+		
+	}
+
+}

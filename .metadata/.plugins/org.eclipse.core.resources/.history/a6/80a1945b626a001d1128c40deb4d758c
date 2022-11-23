@@ -1,0 +1,9 @@
+package ex5_poly.model.vo;
+
+public class Member {
+	String name;
+	int age;
+	char gender;
+	int couponCount;
+	
+}
