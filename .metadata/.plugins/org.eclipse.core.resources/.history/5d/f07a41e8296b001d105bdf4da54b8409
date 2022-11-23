@@ -1,0 +1,15 @@
+package ex3_1;
+
+public class TriangleController {
+	Shape s = new Shape();
+	public double calcArea(double height, double width) {
+		
+	}
+	public void paintColor(String color) {
+		
+	}
+	public String print() {
+		
+	}
+
+}

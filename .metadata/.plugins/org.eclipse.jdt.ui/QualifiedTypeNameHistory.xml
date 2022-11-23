@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ex3_2.EmployeeMenu"/>
 </qualifiedTypeNameHistroy>
