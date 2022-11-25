@@ -83,7 +83,7 @@ public class ShapeMenu {
 			System.out.println("9. 메인으로");
 			System.out.print("메뉴 번호:");
 			n = sc.nextInt();
-			if(n!=2&&n!=3&&n!=1&&n!=9) { 	System.out.println("다시입력해주세요");	}
+			if(n!=2&&n!=3&&n!=1&&n!=9 &&n!=4) { 	System.out.println("다시입력해주세요");	}
 			else {
 				break;
 			}
@@ -121,6 +121,7 @@ public class ShapeMenu {
 	}
 	public void printlnformation(String type) {
 		if(type=="삼각형") System.out.println(tc.print());
+		if(type=="사각형") System.out.println(scr.print());
 	}
 	}
 	

@@ -1,5 +1,6 @@
 package ex5_poly.view;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import ex5_1_poly.model.vo.Book;
@@ -16,13 +17,14 @@ public class LibraryMenu {
 	Scanner sc = new Scanner(System.in);
 	
 	public void mainMenu() {
+		ArrayList<Member> member = new ArrayList<>();
 		System.out.print("이름:");
 		name =sc.next();
 		System.out.print("나이:");
 		age = sc.nextInt();
 		System.out.print("성별:");
 		gen = sc.next().charAt(0);
-		Member member = new Member(name,age,gen);
+		member.add(name,age,gen);
 		
 		System.out.println("====메뉴 ====");
 		System.out.println("1. 마이페이지");
@@ -32,10 +34,10 @@ public class LibraryMenu {
 		System.out.println("9. 프로그램 종료하기");
 		System.out.print("메뉴 번호 :");
 		select=sc.nextInt();
-		if(select ==1) {lc.myInfo();
-		}else if(select ==2) { lc.selectAll();}
-		else if(select ==3) { lc.searchBook();}
-		else if(select ==4) {lc.rentBook();}
+		if(select ==1) {System.out.println(lc.myInfo());
+		}else if(select ==2) { selectAll();}
+		else if(select ==3) { searchBook();}
+		else if(select ==4) {rentBook();}
 		else if(select ==9) { System.out.println("시스템 종료"); System.exit(0);}
 		else { System.out.println("잘못입력하셨습니다.처음부터 다시입력해주세요"); mainMenu();}
 	}
@@ -50,7 +52,6 @@ public class LibraryMenu {
 		System.out.print("검색할 제목 키워드:");
 		keyword = sc.next();
 		lc.searchBook(keyword);
-		Book[] searchList
 		
 	}
 	public void rentBook() {
