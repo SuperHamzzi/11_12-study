@@ -5,5 +5,5 @@
  * @author gksrn_pl1
  *
  */
-module Collections {
+module algorithm_submit {
 }

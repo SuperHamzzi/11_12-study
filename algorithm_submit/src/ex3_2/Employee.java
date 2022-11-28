@@ -13,10 +13,19 @@ public class Employee {
 		
 	}
 	public Employee(int empNo, String name, char gender,String phone) {
-		
+		this.empNo=empNo;
+		this.name=name;
+		this.gender=gender;
+		this.phone=phone;
 	}
 	public Employee(int empNo, String name, char gender,String phone,String dept, int salary, double bonus) {
-		
+		this.empNo=empNo;
+		this.name=name;
+		this.gender=gender;
+		this.phone=phone;
+		this.dept=dept;
+		this.salary=salary;
+		this.bonus=bonus;
 	}
 	public int getEmpNo() {
 		return empNo;
