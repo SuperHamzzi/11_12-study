@@ -1,8 +1,0 @@
-package ex5_1_poly.run;
-
-public class Run {
-	public static void main(String[] args) {
-		
-	}
-
-}
