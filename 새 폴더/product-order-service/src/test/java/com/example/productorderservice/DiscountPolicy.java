@@ -1,2 +1,4 @@
-package com.example.productorderservice;public class DiscountPolicy {
+package com.example.productorderservice;
+
+public enum DiscountPolicy {
 }

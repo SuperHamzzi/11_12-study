@@ -1,2 +1,4 @@
-package com.example.productorderservice;public class AddProductRequest {
+package com.example.productorderservice;
+
+public class AddProductRequest {
 }

@@ -6,7 +6,11 @@ public class MemberController {
 
 	public int existMemberNum() {
 		int count = -1;
+		
+		
 		while (++count < 10 && m[count]!=null);
+		
+		
 		return count;
 	}
 	
